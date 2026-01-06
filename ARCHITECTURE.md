@@ -1,12 +1,3 @@
-**Architecture**
-
-```
-ARCHITECTURE.md
-```
-
-This is **NOT README content** — it is a **standalone architecture document**.
-
-
 #  ALIGN – Detailed System Architecture
 
 ## 1. Introduction
