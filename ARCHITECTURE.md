@@ -6,9 +6,8 @@ ARCHITECTURE.md
 
 This is **NOT README content** — it is a **standalone architecture document**.
 
----
 
-# 🏗️ ALIGN – Detailed System Architecture
+#  ALIGN – Detailed System Architecture
 
 ## 1. Introduction
 
@@ -21,7 +20,6 @@ The architecture emphasizes:
 * Secure cloud-native design
 * Rapid development suitable for hackathons and academic projects
 
----
 
 ## 2. Architectural Objectives
 
@@ -34,7 +32,6 @@ The primary objectives of the ALIGN architecture are:
 * To maintain **scalability and extensibility**
 * To minimize infrastructure and operational complexity
 
----
 
 ## 3. Overall Architecture Overview
 
@@ -56,7 +53,6 @@ Google Sheets Database
 
 Each layer is independently manageable and collectively ensures smooth system operation.
 
----
 
 ## 4. Architecture Layers
 
@@ -85,7 +81,6 @@ User identity is authenticated using **Google Sign-In**, ensuring:
 * Secure access
 * Reduced onboarding friction
 
----
 
 ### 4.2 Authentication & Identity Management
 
@@ -101,7 +96,6 @@ Role identification is performed by checking:
 
 This approach eliminates the need for a separate authentication server while maintaining strong identity assurance.
 
----
 
 ### 4.3 Application Layer (Google AppSheet)
 
@@ -134,7 +128,6 @@ Responsibilities include:
 
 The UI is responsive and supports both **web and mobile access**.
 
----
 
 ### 4.4 Business Logic & Matching Layer
 
@@ -171,7 +164,6 @@ Although rule-based, this design allows future integration of:
 * Weighted scoring systems
 * AI-driven mentor ranking
 
----
 
 ### 4.5 Data Layer (Google Sheets)
 
@@ -218,7 +210,6 @@ This relational approach ensures:
 * Reduced duplication
 * Clean normalization
 
----
 
 ### 4.6 Security & Access Control Layer
 
@@ -245,7 +236,6 @@ Security is enforced using **AppSheet-native mechanisms**.
 
 This ensures **strict data isolation** and prevents unauthorized access.
 
----
 
 ## 5. Workflow Execution
 
@@ -266,7 +256,6 @@ This ensures **strict data isolation** and prevents unauthorized access.
 
 All workflows are handled via **AppSheet Actions**.
 
----
 
 ## 6. Scalability & Extensibility
 
@@ -279,7 +268,6 @@ The architecture supports future enhancements such as:
 * Migration to Firebase or custom backend
 * Mobile-first deployment
 
----
 
 ## 7. Design Benefits
 
@@ -290,12 +278,8 @@ The architecture supports future enhancements such as:
 * Hackathon and academic ready
 * Future-proof design
 
----
 
 ## 8. Conclusion
 
 The ALIGN system architecture successfully combines **low-code development**, **intelligent matching**, and **secure access control** to deliver a robust mentorship platform. The modular and scalable design ensures that the system can evolve into a full-fledged AI-driven solution with minimal re-engineering.
-
----
-
 
